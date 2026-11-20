@@ -1,0 +1,112 @@
+[
+  {
+    "height_m": 0.29,
+    "seed": 1,
+    "window_s": 120,
+    "mean_mm": -1.497869286932993,
+    "rmse_mm": 1.5794373295848034,
+    "max_abs_mm": 2.358488346768731,
+    "inside_5mm_pct": 100,
+    "goal_pass": true,
+    "held_descent_mm": -18.966722804402483
+  },
+  {
+    "height_m": 0.29,
+    "seed": 12,
+    "window_s": 120,
+    "mean_mm": -6.287203306411552,
+    "rmse_mm": 6.34790377051289,
+    "max_abs_mm": 7.960823660732193,
+    "inside_5mm_pct": 5.333333333333333,
+    "goal_pass": false,
+    "held_descent_mm": -20.96267924278592
+  },
+  {
+    "height_m": 0.29,
+    "seed": 123,
+    "window_s": 120,
+    "mean_mm": -4.116395860545971,
+    "rmse_mm": 4.184830548737413,
+    "max_abs_mm": 5.426196683314892,
+    "inside_5mm_pct": 86.33333333333333,
+    "goal_pass": false,
+    "held_descent_mm": -22.219705404771883
+  },
+  {
+    "height_m": 0.29,
+    "seed": 1234,
+    "window_s": 120,
+    "mean_mm": 1.741367420660924,
+    "rmse_mm": 1.828851673526729,
+    "max_abs_mm": 2.5507173452696406,
+    "inside_5mm_pct": 100,
+    "goal_pass": true,
+    "held_descent_mm": -18.86306470893403
+  },
+  {
+    "height_m": 0.29,
+    "seed": 12345,
+    "window_s": 120,
+    "mean_mm": 1.1924864242274533,
+    "rmse_mm": 1.2558707850655653,
+    "max_abs_mm": 2.261701063290434,
+    "inside_5mm_pct": 100,
+    "goal_pass": true,
+    "held_descent_mm": -18.9237010928665
+  },
+  {
+    "height_m": 0.8,
+    "seed": 1,
+    "window_s": 65,
+    "mean_mm": -0.494639203258409,
+    "rmse_mm": 0.9986960541540719,
+    "max_abs_mm": 1.9947749728419681,
+    "inside_5mm_pct": 100,
+    "goal_pass": true,
+    "held_descent_mm": -19.5839322538317
+  },
+  {
+    "height_m": 0.8,
+    "seed": 12,
+    "window_s": 73,
+    "mean_mm": -3.204391594095733,
+    "rmse_mm": 3.285836911844136,
+    "max_abs_mm": 4.303341902921779,
+    "inside_5mm_pct": 100,
+    "goal_pass": true,
+    "held_descent_mm": -20.38058786131817
+  },
+  {
+    "height_m": 0.8,
+    "seed": 123,
+    "window_s": 71,
+    "mean_mm": -1.1214326342501946,
+    "rmse_mm": 1.385309608617502,
+    "max_abs_mm": 3.049495936261,
+    "inside_5mm_pct": 100,
+    "goal_pass": true,
+    "held_descent_mm": -20.884987641013407
+  },
+  {
+    "height_m": 0.8,
+    "seed": 1234,
+    "window_s": 70,
+    "mean_mm": 0.9301645286443435,
+    "rmse_mm": 0.993903471645258,
+    "max_abs_mm": 1.37414912872916,
+    "inside_5mm_pct": 100,
+    "goal_pass": true,
+    "held_descent_mm": -19.555298232500736
+  },
+  {
+    "height_m": 0.8,
+    "seed": 12345,
+    "window_s": 70,
+    "mean_mm": 0.16832003268987777,
+    "rmse_mm": 0.3847456564823142,
+    "max_abs_mm": 0.9095998042002631,
+    "inside_5mm_pct": 100,
+    "goal_pass": true,
+    "held_descent_mm": -19.53955407447204
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "name": "soc-digital-twin-v5-realtime-uwb-ui",
+  "version": "2.5.0-inlier-reacquisition",
+  "private": true,
+  "description": "SOC R13.5 Unified Information-Adaptive UWB with inlier-subset consensus, hard outlier rejection, single-link quarantine, vibration-gated large-step reacquisition, all-Tag diagnostic CSV and fault-fuzz tests.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "mock:sensors": "node tools/mock_modules.js",
+    "test:uwb": "node tools/test_uwb_compensation.js",
+    "test:bridge": "node tools/test_sensor_bridge.js",
+    "test:precision": "node tools/test_uwb_precision.js",
+    "test:tracking": "node tools/test_uwb_tracking.js",
+    "test:static": "node tools/test_uwb_static.js",
+    "test:static-check": "node tools/test_static_check.js",
+    "test:surface-normal": "node tools/test_surface_normal_solver.js",
+    "test:tdma": "node tools/test_tdma_scheduler.js",
+    "test:multi-cal": "node tools/test_multi_tag_calibration.js",
+    "test:three-tags": "node tools/test_three_tag_udp.js",
+    "test:ui-cal": "node tools/test_calibration_ui.js",
+    "test:adaptive": "node tools/test_information_ranging.js",
+    "test:info": "node tools/test_information_ranging.js",
+    "test:window": "node tools/test_robust_sliding_window.js",
+    "test:unified": "node tools/test_unified_continuity.js",
+    "test:stationary-drift": "node tools/test_stationary_drift_guard.js",
+    "test:vibration-guard": "node tools/test_vibration_consensus_guard.js",
+    "test:three-tag-event": "node tools/test_r13_5_three_tag_event.js",
+    "test:fault-fuzz": "node tools/test_r13_5_fault_fuzz.js",
+    "test:random-matrix": "node tools/test_r13_5_random_matrix.js",
+    "test:anomaly": "node tools/test_r13_5_stationary_fault_matrix.js && node tools/test_r13_5_dynamic_reacquisition_matrix.js && node tools/test_r13_5_three_tag_event.js && node tools/test_r13_5_fault_fuzz.js && node tools/test_r13_5_random_matrix.js && node tools/test_vibration_consensus_guard.js && node tools/test_stationary_drift_guard.js && node tools/test_runaway_guard.js",
+    "test:stationary-matrix": "node tools/test_r13_5_stationary_fault_matrix.js",
+    "test:dynamic-reacq": "node tools/test_r13_5_dynamic_reacquisition_matrix.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "openai": "^5.19.1"
+  },
+  "engines": {
+    "node": ">=20.12"
+  }
+}
